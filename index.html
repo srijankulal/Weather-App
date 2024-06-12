@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 class="head">Weather Forecast</h1>
+    <div class="box">
+        <div class="search">
+        <input type="text" id="searchInput" placeholder="Enter the place"  required>     
+        <button type="submit" id="button" >Search</button>
+        </div> 
+    <div class="weatherContainer">
+        <div class="weather">
+                <p id="location"></p>
+                <img src="" alt="Weather Icon">
+                <div class="temp-humidity-wind">
+                    <p id="temp"> </p>
+                    <div class="humidity-wind"></div>
+                    <div class="humidity">
+                        <img src="./Images/humidity2.png" alt="Humidity">
+                        <p id="humidity"></p>
+                    </div>
+                    <div class="wind">
+                        <img src="./Images/wind2.png" alt="Wind">
+                        <p id="wind">10 km/h</p>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>   
+        <div class="error" id="error">
+            <h1 id="errorMessage"></h1>
+            <button id="close">Close</button>   
+    </div>    
+</div>
+</body>
+<script src="script.js" defer></script>
+</html>
