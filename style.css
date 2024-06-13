@@ -112,15 +112,21 @@ body {
 #location{
   font-family: 'alba2', sans-serif;
   margin-top: -40px;
-  margin-bottom: 170px;
+  margin-bottom: 150px;
   font-size: 35px;
   text-align: center;
-  color: rgb(103, 163, 247);
-  text-decoration: solid;
+  color: rgb(255, 255, 255);
+    text-shadow:
+    -1px 1px 0 #0372b8,
+    -2px 2px 0 #0372b8,
+    -3px 3px 0 #0372b8,
+    -4px 4px 0 #0372b8;
+    text-decoration: solid;
   
 }
 .weather img{
   margin-top: -200px;
+  margin-bottom: -20px;
   margin-left: 150px;
   align-content: center;
   background-image: cover;
@@ -162,7 +168,7 @@ body {
 .wind img{
   width: 20%;
   margin-left: 350px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   
 }
 #humidity{
